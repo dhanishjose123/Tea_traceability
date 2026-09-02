@@ -1,0 +1,8 @@
+# Windows metadata streams
+*:Zone.Identifier
+*Zone.Identifier*
+
+# Node modules & OS files
+node_modules/
+.DS_Store
+Thumbs.db

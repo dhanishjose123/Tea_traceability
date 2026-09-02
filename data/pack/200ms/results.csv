@@ -1,0 +1,5 @@
+functionName,lotWeightKg,load,numCaliperWorkers,hotKeyWrites,hotParticipants,ledgerWrites,reads,payloadBytes,sendRate,success,failures,totalTransactions,throughput,failureRate,latency,avgLatency,function_clean
+pack_r5,10,1,5,0,0,58,1,90.77,1.6,10,0,10,0.5,0.0,200,16.44,pack
+pack_r5,10,20,5,0,0,58,1,90.77,17.3,105,0,105,5.1,0.0,200,15.56,pack
+pack_r5,10,200,5,0,0,58,1,90.77,167.3,1005,0,1005,21.3,0.0,200,25.9,pack
+pack_r5,10,400,5,0,0,58,1,90.77,211.5,1287,3,1290,20.0,0.002325581395348837,200,34.42,pack

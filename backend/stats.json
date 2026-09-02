@@ -1,0 +1,268 @@
+{
+  "generatedAt": "2026-06-11T11:30:59.647Z",
+  "totals": {
+    "farmerId": "ALL",
+    "total": 139154,
+    "submitted": 16453,
+    "approvedNoBids": 5844,
+    "bid": 10028,
+    "sold": 106829,
+    "packed": 17331,
+    "rejected": 0,
+    "other": 0
+  },
+  "farmers": [
+    {
+      "farmerId": "User1",
+      "total": 10752,
+      "submitted": 0,
+      "approvedNoBids": 0,
+      "bid": 0,
+      "sold": 10752,
+      "packed": 5835,
+      "rejected": 0,
+      "other": 0,
+      "bidsByRetailer": {
+        "User5": 1004,
+        "User1": 7082,
+        "User10": 3,
+        "User2": 1004,
+        "User3": 962,
+        "User4": 976,
+        "User6": 3,
+        "User7": 3,
+        "User8": 3,
+        "User9": 3
+      }
+    },
+    {
+      "farmerId": "User2",
+      "total": 10708,
+      "submitted": 0,
+      "approvedNoBids": 0,
+      "bid": 0,
+      "sold": 10708,
+      "packed": 4343,
+      "rejected": 0,
+      "other": 0,
+      "bidsByRetailer": {
+        "User4": 1069,
+        "User5": 1032,
+        "User2": 6966,
+        "User1": 953,
+        "User3": 948
+      }
+    },
+    {
+      "farmerId": "User3",
+      "total": 10720,
+      "submitted": 0,
+      "approvedNoBids": 0,
+      "bid": 0,
+      "sold": 10720,
+      "packed": 1002,
+      "rejected": 0,
+      "other": 0,
+      "bidsByRetailer": {
+        "User1": 941,
+        "User2": 949,
+        "User5": 973,
+        "User3": 7038,
+        "User4": 1014
+      }
+    },
+    {
+      "farmerId": "User4",
+      "total": 10726,
+      "submitted": 0,
+      "approvedNoBids": 0,
+      "bid": 0,
+      "sold": 10726,
+      "packed": 0,
+      "rejected": 0,
+      "other": 0,
+      "bidsByRetailer": {
+        "User1": 976,
+        "User5": 1022,
+        "User4": 7081,
+        "User3": 965,
+        "User2": 953
+      }
+    },
+    {
+      "farmerId": "User5",
+      "total": 17242,
+      "submitted": 3475,
+      "approvedNoBids": 447,
+      "bid": 2551,
+      "sold": 10769,
+      "packed": 152,
+      "rejected": 0,
+      "other": 0,
+      "bidsByRetailer": {
+        "User5": 9552,
+        "User2": 952,
+        "User4": 967,
+        "User3": 990,
+        "User1": 1030
+      }
+    },
+    {
+      "farmerId": "User6",
+      "total": 17236,
+      "submitted": 3396,
+      "approvedNoBids": 528,
+      "bid": 2745,
+      "sold": 10567,
+      "packed": 1187,
+      "rejected": 0,
+      "other": 0,
+      "bidsByRetailer": {
+        "User6": 8620,
+        "User4": 995,
+        "User1": 960,
+        "User2": 948,
+        "User3": 985,
+        "User5": 1020
+      }
+    },
+    {
+      "farmerId": "User7",
+      "total": 16939,
+      "submitted": 3072,
+      "approvedNoBids": 503,
+      "bid": 2567,
+      "sold": 10797,
+      "packed": 1166,
+      "rejected": 0,
+      "other": 0,
+      "bidsByRetailer": {
+        "User7": 8664,
+        "User1": 1001,
+        "User5": 1029,
+        "User3": 987,
+        "User2": 918,
+        "User4": 962
+      }
+    },
+    {
+      "farmerId": "User8",
+      "total": 17024,
+      "submitted": 3171,
+      "approvedNoBids": 1097,
+      "bid": 2165,
+      "sold": 10591,
+      "packed": 1267,
+      "rejected": 0,
+      "other": 0,
+      "bidsByRetailer": {
+        "User8": 8004,
+        "User2": 995,
+        "User5": 991,
+        "User3": 1000,
+        "User4": 1016,
+        "User1": 940
+      }
+    },
+    {
+      "farmerId": "User9",
+      "total": 17117,
+      "submitted": 3339,
+      "approvedNoBids": 3269,
+      "bid": 0,
+      "sold": 10509,
+      "packed": 1102,
+      "rejected": 0,
+      "other": 0,
+      "bidsByRetailer": {
+        "User9": 5719,
+        "User4": 967,
+        "User2": 958,
+        "User5": 965,
+        "User1": 965,
+        "User3": 935
+      }
+    },
+    {
+      "farmerId": "User10",
+      "total": 10690,
+      "submitted": 0,
+      "approvedNoBids": 0,
+      "bid": 0,
+      "sold": 10690,
+      "packed": 1277,
+      "rejected": 0,
+      "other": 0,
+      "bidsByRetailer": {
+        "User1": 998,
+        "User4": 916,
+        "User5": 926,
+        "User3": 953,
+        "User2": 902,
+        "User10": 5995
+      }
+    }
+  ],
+  "retailers": [
+    {
+      "retailerId": "User1",
+      "sold": 15542,
+      "packed": 2651,
+      "bidLots": 13524
+    },
+    {
+      "retailerId": "User2",
+      "sold": 15242,
+      "packed": 2168,
+      "bidLots": 13332
+    },
+    {
+      "retailerId": "User3",
+      "sold": 15479,
+      "packed": 2160,
+      "bidLots": 13550
+    },
+    {
+      "retailerId": "User4",
+      "sold": 15625,
+      "packed": 2174,
+      "bidLots": 13685
+    },
+    {
+      "retailerId": "User5",
+      "sold": 15686,
+      "packed": 2178,
+      "bidLots": 16302
+    },
+    {
+      "retailerId": "User6",
+      "sold": 5799,
+      "packed": 1187,
+      "bidLots": 8505
+    },
+    {
+      "retailerId": "User7",
+      "sold": 6000,
+      "packed": 1166,
+      "bidLots": 8567
+    },
+    {
+      "retailerId": "User8",
+      "sold": 5741,
+      "packed": 1267,
+      "bidLots": 7906
+    },
+    {
+      "retailerId": "User9",
+      "sold": 5719,
+      "packed": 1102,
+      "bidLots": 2837
+    },
+    {
+      "retailerId": "User10",
+      "sold": 5996,
+      "packed": 1278,
+      "bidLots": 1
+    }
+  ]
+}

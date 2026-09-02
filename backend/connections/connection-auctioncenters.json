@@ -1,0 +1,49 @@
+{
+    "name": "test-network-auctioncenters",
+    "version": "1.0.0",
+    "client": {
+        "organization": "auctioncenters",
+        "connection": {
+            "timeout": {
+                "peer": {
+                    "endorser": "300"
+                }
+            }
+        }
+    },
+    "organizations": {
+        "Orgauctioncenters": {
+            "mspid": "auctioncentersMSP",
+            "peers": [
+                "peer0.auctioncenters.example.com"
+            ],
+            "certificateAuthorities": [
+                "ca.auctioncenters.example.com"
+            ]
+        }
+    },
+    "peers": {
+        "peer0.orgauctioncenters.example.com": {
+            "url": "grpcs://localhost:8051",
+            "tlsCACerts": {
+                "pem": "-----BEGIN CERTIFICATE-----\nMIICgDCCAiegAwIBAgIQIVWINIvDMP3wHfvMNAhYcjAKBggqhkjOPQQDAjCBijEL\nMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG\ncmFuY2lzY28xIzAhBgNVBAoTGmF1Y3Rpb25jZW50ZXJzLmV4YW1wbGUuY29tMSkw\nJwYDVQQDEyB0bHNjYS5hdWN0aW9uY2VudGVycy5leGFtcGxlLmNvbTAeFw0yNjA1\nMjIwNzM1MDBaFw0zNjA1MTkwNzM1MDBaMIGKMQswCQYDVQQGEwJVUzETMBEGA1UE\nCBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNU2FuIEZyYW5jaXNjbzEjMCEGA1UEChMa\nYXVjdGlvbmNlbnRlcnMuZXhhbXBsZS5jb20xKTAnBgNVBAMTIHRsc2NhLmF1Y3Rp\nb25jZW50ZXJzLmV4YW1wbGUuY29tMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE\nWBjr01JsfV3CQDGO6uhwFVn+YCx2lPlIoWOcdoWu5WcZwogmQo/UqTz1lEU4biOz\n30oflcvZ0/GLy3MqplwMYaNtMGswDgYDVR0PAQH/BAQDAgGmMB0GA1UdJQQWMBQG\nCCsGAQUFBwMCBggrBgEFBQcDATAPBgNVHRMBAf8EBTADAQH/MCkGA1UdDgQiBCDb\nK9+1r9OUvh/57SN96KX9Ge0+wgxpv6wabXpEOfydfDAKBggqhkjOPQQDAgNHADBE\nAiA3MX1cxeypcWGGxmK6qeHbie7TrNOZ8VNS+Qu8q2rvswIgCwXbyDEL9UKJR3KN\nvxBsBsFoHDwoN7j6aFolh4rpwtA=\n-----END CERTIFICATE-----"
+            },
+            "grpcOptions": {
+                "ssl-target-name-override": "peer0.auctioncenters.example.com",
+                "hostnameOverride": "peer0.auctioncenters.example.com"
+            }
+        }
+    },
+    "certificateAuthorities": {
+        "ca.orgauctioncenters.example.com": {
+            "url": "https://localhost:16051",
+            "caName": "ca-auctioncenters",
+            "tlsCACerts": {
+                "pem": ["-----BEGIN CERTIFICATE-----\nMIICfTCCAiKgAwIBAgIRAKrrVmswk4p3cgVv/3ozQXAwCgYIKoZIzj0EAwIwgYcx\nCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1TYW4g\nRnJhbmNpc2NvMSMwIQYDVQQKExphdWN0aW9uY2VudGVycy5leGFtcGxlLmNvbTEm\nMCQGA1UEAxMdY2EuYXVjdGlvbmNlbnRlcnMuZXhhbXBsZS5jb20wHhcNMjYwNTIy\nMDczNTAwWhcNMzYwNTE5MDczNTAwWjCBhzELMAkGA1UEBhMCVVMxEzARBgNVBAgT\nCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBGcmFuY2lzY28xIzAhBgNVBAoTGmF1\nY3Rpb25jZW50ZXJzLmV4YW1wbGUuY29tMSYwJAYDVQQDEx1jYS5hdWN0aW9uY2Vu\ndGVycy5leGFtcGxlLmNvbTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABG+BuBwo\nMSzstCS+weKBq+UU8mNKgskWzV9BmXMwVbey9ijaaVTOArCpyd1wARtj/DxKRk2S\nxU0nzEo1C5CinoqjbTBrMA4GA1UdDwEB/wQEAwIBpjAdBgNVHSUEFjAUBggrBgEF\nBQcDAgYIKwYBBQUHAwEwDwYDVR0TAQH/BAUwAwEB/zApBgNVHQ4EIgQgLChuId9H\nmsJImAlUpPR5j20XVTcQCTJhW7qHPNqzvEEwCgYIKoZIzj0EAwIDSQAwRgIhAM5+\nnvT6NCfnP3lPJK49fPHKyMvYP3O8bN0wRhL1ytXDAiEAkpktzzMy7Bm+nQY6zzco\n2YT52THXIJDl1zc5oncIR3o=\n-----END CERTIFICATE-----"]
+            },
+            "httpOptions": {
+                "verify": false
+            }
+        }
+    }
+}

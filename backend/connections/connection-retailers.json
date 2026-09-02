@@ -1,0 +1,49 @@
+{
+    "name": "test-network-retailers",
+    "version": "1.0.0",
+    "client": {
+        "organization": "retailers",
+        "connection": {
+            "timeout": {
+                "peer": {
+                    "endorser": "300"
+                }
+            }
+        }
+    },
+    "organizations": {
+        "Orgretailers": {
+            "mspid": "retailersMSP",
+            "peers": [
+                "peer0.retailers.example.com"
+            ],
+            "certificateAuthorities": [
+                "ca.retailers.example.com"
+            ]
+        }
+    },
+    "peers": {
+        "peer0.orgretailers.example.com": {
+            "url": "grpcs://localhost:9051",
+            "tlsCACerts": {
+                "pem": "-----BEGIN CERTIFICATE-----\nMIICbDCCAhOgAwIBAgIQHDogS5gYV9U4aBpPttQ0tDAKBggqhkjOPQQDAjCBgDEL\nMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG\ncmFuY2lzY28xHjAcBgNVBAoTFXJldGFpbGVycy5leGFtcGxlLmNvbTEkMCIGA1UE\nAxMbdGxzY2EucmV0YWlsZXJzLmV4YW1wbGUuY29tMB4XDTI2MDcwMjE0NDYwMFoX\nDTM2MDYyOTE0NDYwMFowgYAxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9y\nbmlhMRYwFAYDVQQHEw1TYW4gRnJhbmNpc2NvMR4wHAYDVQQKExVyZXRhaWxlcnMu\nZXhhbXBsZS5jb20xJDAiBgNVBAMTG3Rsc2NhLnJldGFpbGVycy5leGFtcGxlLmNv\nbTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABEOLDuPbW6YOfwjDYhvXlSHMdvF3\nhbPC52fn6yO8CK3e41LLGwjwZ+nddLpXPxl6kT6qPrFLwjaD+sVEdnQ7q0+jbTBr\nMA4GA1UdDwEB/wQEAwIBpjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEw\nDwYDVR0TAQH/BAUwAwEB/zApBgNVHQ4EIgQgyjfYwpdVugvU27XpOEJl949+ThD7\ni3QvQ5CTDPhQMU4wCgYIKoZIzj0EAwIDRwAwRAIgewclx1Bs/8+sIspIpGbW6kQq\nUaLUP0SepQ3v8PsBab8CIHw2sblHS+2pR+Wko85bBl2gR7FYVNQDPCRiwYRaEOwX\n-----END CERTIFICATE-----"
+            },
+            "grpcOptions": {
+                "ssl-target-name-override": "peer0.retailers.example.com",
+                "hostnameOverride": "peer0.retailers.example.com"
+            }
+        }
+    },
+    "certificateAuthorities": {
+        "ca.orgretailers.example.com": {
+            "url": "https://localhost:17051",
+            "caName": "ca-retailers",
+            "tlsCACerts": {
+                "pem": ["-----BEGIN CERTIFICATE-----\nMIICZTCCAgugAwIBAgIQJFX4V67kk3BsA52Sd/xXazAKBggqhkjOPQQDAjB9MQsw\nCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNU2FuIEZy\nYW5jaXNjbzEeMBwGA1UEChMVcmV0YWlsZXJzLmV4YW1wbGUuY29tMSEwHwYDVQQD\nExhjYS5yZXRhaWxlcnMuZXhhbXBsZS5jb20wHhcNMjYwNzAyMTQ0NjAwWhcNMzYw\nNjI5MTQ0NjAwWjB9MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEW\nMBQGA1UEBxMNU2FuIEZyYW5jaXNjbzEeMBwGA1UEChMVcmV0YWlsZXJzLmV4YW1w\nbGUuY29tMSEwHwYDVQQDExhjYS5yZXRhaWxlcnMuZXhhbXBsZS5jb20wWTATBgcq\nhkjOPQIBBggqhkjOPQMBBwNCAATDRfoeYm+uhUytLlTSRuhrsvAXufcO8AbXyJvU\nO21fdB5FaanXMkhkzAvk1K6vt9OWM6NJzQYl047Chf3mt81Oo20wazAOBgNVHQ8B\nAf8EBAMCAaYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMA8GA1UdEwEB\n/wQFMAMBAf8wKQYDVR0OBCIEINd1f0aQuvw5tS8dA5wVSfAqFYMcCgqXU1F85apU\nSyLgMAoGCCqGSM49BAMCA0gAMEUCIFPLXNdKL0vOcZeZ+kQw1n+oyygGgvgwxuFR\nZwnUcYOfAiEAyQw1lDsYch19iVfddlRIns07OdaNhqBAGUBoDZrvRcM=\n-----END CERTIFICATE-----"]
+            },
+            "httpOptions": {
+                "verify": false
+            }
+        }
+    }
+}

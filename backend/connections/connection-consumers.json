@@ -1,0 +1,49 @@
+{
+    "name": "test-network-consumers",
+    "version": "1.0.0",
+    "client": {
+        "organization": "consumers",
+        "connection": {
+            "timeout": {
+                "peer": {
+                    "endorser": "300"
+                }
+            }
+        }
+    },
+    "organizations": {
+        "Orgconsumers": {
+            "mspid": "consumersMSP",
+            "peers": [
+                "peer0.consumers.example.com"
+            ],
+            "certificateAuthorities": [
+                "ca.consumers.example.com"
+            ]
+        }
+    },
+    "peers": {
+        "peer0.orgconsumers.example.com": {
+            "url": "grpcs://localhost:10051",
+            "tlsCACerts": {
+                "pem": "-----BEGIN CERTIFICATE-----\nMIICbjCCAhOgAwIBAgIQJ6wDkXe/S5njslDO7WrHLjAKBggqhkjOPQQDAjCBgDEL\nMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG\ncmFuY2lzY28xHjAcBgNVBAoTFWNvbnN1bWVycy5leGFtcGxlLmNvbTEkMCIGA1UE\nAxMbdGxzY2EuY29uc3VtZXJzLmV4YW1wbGUuY29tMB4XDTI2MDcwMjE0NDYwMFoX\nDTM2MDYyOTE0NDYwMFowgYAxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9y\nbmlhMRYwFAYDVQQHEw1TYW4gRnJhbmNpc2NvMR4wHAYDVQQKExVjb25zdW1lcnMu\nZXhhbXBsZS5jb20xJDAiBgNVBAMTG3Rsc2NhLmNvbnN1bWVycy5leGFtcGxlLmNv\nbTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABAwmkhcGFjcsnAugndUgCOM8d36h\nv7tTEK6CFwVUhVHLa4O7OG+KuU4kdv7xrJZc3/QvViUTj/nwy3zoyilixhmjbTBr\nMA4GA1UdDwEB/wQEAwIBpjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEw\nDwYDVR0TAQH/BAUwAwEB/zApBgNVHQ4EIgQgCRa+XBid64et17Jk9PzOQLeq8cJR\nManed1ymYFFb8+MwCgYIKoZIzj0EAwIDSQAwRgIhALSYB+nEfE8xuWJjGFdoTmR6\n7y3B24eYUg6/zzh1eAh6AiEA9nI8Y8ESGPTHSzZZ9zOnZjDCRza2u3qzbkAKNfjW\nna8=\n-----END CERTIFICATE-----"
+            },
+            "grpcOptions": {
+                "ssl-target-name-override": "peer0.consumers.example.com",
+                "hostnameOverride": "peer0.consumers.example.com"
+            }
+        }
+    },
+    "certificateAuthorities": {
+        "ca.orgconsumers.example.com": {
+            "url": "https://localhost:18051",
+            "caName": "ca-consumers",
+            "tlsCACerts": {
+                "pem": ["-----BEGIN CERTIFICATE-----\nMIICZjCCAgygAwIBAgIRAIaHvmr2h7eselxnFMGtVN8wCgYIKoZIzj0EAwIwfTEL\nMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG\ncmFuY2lzY28xHjAcBgNVBAoTFWNvbnN1bWVycy5leGFtcGxlLmNvbTEhMB8GA1UE\nAxMYY2EuY29uc3VtZXJzLmV4YW1wbGUuY29tMB4XDTI2MDcwMjE0NDYwMFoXDTM2\nMDYyOTE0NDYwMFowfTELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWEx\nFjAUBgNVBAcTDVNhbiBGcmFuY2lzY28xHjAcBgNVBAoTFWNvbnN1bWVycy5leGFt\ncGxlLmNvbTEhMB8GA1UEAxMYY2EuY29uc3VtZXJzLmV4YW1wbGUuY29tMFkwEwYH\nKoZIzj0CAQYIKoZIzj0DAQcDQgAEJHmr9czmMnuXZifNwR9Z4KONGP/bCke2ekDo\nVKyz3FkFt71nGIyXT7xk7APb3XqoI+DuN5uyCQe3qOKTBM2Q8KNtMGswDgYDVR0P\nAQH/BAQDAgGmMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATAPBgNVHRMB\nAf8EBTADAQH/MCkGA1UdDgQiBCDxNnBgR6KUln4vgJ4hGhl8Akg2IDGs6VU8IWst\nxwCPvjAKBggqhkjOPQQDAgNIADBFAiA3e7V1gFc8wkllHwlHDJftZSvLgev2E7VP\n5jaVH5z6MwIhAP5KytZoOVtX01VDVIk/xjOB5YLzXAZygCQZnp40kv5U\n-----END CERTIFICATE-----"]
+            },
+            "httpOptions": {
+                "verify": false
+            }
+        }
+    }
+}

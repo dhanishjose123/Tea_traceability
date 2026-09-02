@@ -1,0 +1,185 @@
+🗑️  Cleared existing wallet
+✅ API server running at http://localhost:5000
+❌ Error starting block listener: Error: Identity not found
+    at Server.<anonymous> (/home/dhanish/fabric_2/backend/server.js:980:26)
+✅ Imported identity for Admin@farmers
+✅ Imported identity for Admin@retailers
+✅ Imported identity for Admin@aggregators
+✅ Imported identity for Admin@consumers
+✅ Imported identity for Admin@bank
+✅ Imported identity for User1@farmers
+✅ Imported identity for User2@farmers
+✅ Imported identity for User3@farmers
+✅ Imported identity for User4@farmers
+✅ Imported identity for User5@farmers
+✅ Imported identity for User6@farmers
+✅ Imported identity for User7@farmers
+✅ Imported identity for User8@farmers
+✅ Imported identity for User9@farmers
+✅ Imported identity for User10@farmers
+✅ Imported identity for User11@farmers
+✅ Imported identity for User12@farmers
+✅ Imported identity for User13@farmers
+✅ Imported identity for User14@farmers
+✅ Imported identity for User15@farmers
+✅ Imported identity for User16@farmers
+✅ Imported identity for User17@farmers
+✅ Imported identity for User18@farmers
+✅ Imported identity for User19@farmers
+✅ Imported identity for User20@farmers
+✅ Imported identity for User21@farmers
+✅ Imported identity for User22@farmers
+✅ Imported identity for User23@farmers
+✅ Imported identity for User24@farmers
+✅ Imported identity for User25@farmers
+✅ Imported identity for User1@retailers
+✅ Imported identity for User2@retailers
+✅ Imported identity for User3@retailers
+✅ Imported identity for User4@retailers
+✅ Imported identity for User5@retailers
+✅ Imported identity for User6@retailers
+✅ Imported identity for User7@retailers
+✅ Imported identity for User8@retailers
+✅ Imported identity for User9@retailers
+✅ Imported identity for User10@retailers
+✅ Imported identity for User11@retailers
+✅ Imported identity for User12@retailers
+✅ Imported identity for User13@retailers
+✅ Imported identity for User14@retailers
+✅ Imported identity for User15@retailers
+✅ Imported identity for User16@retailers
+✅ Imported identity for User17@retailers
+✅ Imported identity for User18@retailers
+✅ Imported identity for User19@retailers
+✅ Imported identity for User20@retailers
+✅ Imported identity for User21@retailers
+✅ Imported identity for User22@retailers
+✅ Imported identity for User23@retailers
+✅ Imported identity for User24@retailers
+✅ Imported identity for User25@retailers
+✅ Imported identity for User1@aggregators
+✅ Imported identity for User2@aggregators
+✅ Imported identity for User3@aggregators
+✅ Imported identity for User4@aggregators
+✅ Imported identity for User5@aggregators
+✅ Imported identity for User6@aggregators
+✅ Imported identity for User7@aggregators
+✅ Imported identity for User8@aggregators
+✅ Imported identity for User9@aggregators
+✅ Imported identity for User10@aggregators
+✅ Imported identity for User11@aggregators
+✅ Imported identity for User12@aggregators
+✅ Imported identity for User13@aggregators
+✅ Imported identity for User14@aggregators
+✅ Imported identity for User15@aggregators
+✅ Imported identity for User16@aggregators
+✅ Imported identity for User17@aggregators
+✅ Imported identity for User18@aggregators
+✅ Imported identity for User19@aggregators
+✅ Imported identity for User20@aggregators
+✅ Imported identity for User21@aggregators
+✅ Imported identity for User22@aggregators
+✅ Imported identity for User23@aggregators
+✅ Imported identity for User24@aggregators
+✅ Imported identity for User25@aggregators
+✅ Imported identity for User1@consumers
+✅ Imported identity for User2@consumers
+✅ Imported identity for User3@consumers
+✅ Imported identity for User4@consumers
+✅ Imported identity for User5@consumers
+✅ Imported identity for User6@consumers
+✅ Imported identity for User7@consumers
+✅ Imported identity for User8@consumers
+✅ Imported identity for User9@consumers
+✅ Imported identity for User10@consumers
+✅ Imported identity for User11@consumers
+✅ Imported identity for User12@consumers
+✅ Imported identity for User13@consumers
+✅ Imported identity for User14@consumers
+✅ Imported identity for User15@consumers
+✅ Imported identity for User16@consumers
+✅ Imported identity for User17@consumers
+✅ Imported identity for User18@consumers
+✅ Imported identity for User19@consumers
+✅ Imported identity for User20@consumers
+✅ Imported identity for User21@consumers
+✅ Imported identity for User22@consumers
+✅ Imported identity for User23@consumers
+✅ Imported identity for User24@consumers
+✅ Imported identity for User25@consumers
+✅ Imported identity for User1@bank
+✅ Imported identity for User2@bank
+✅ Imported identity for User3@bank
+✅ Imported identity for User4@bank
+✅ Imported identity for User5@bank
+✅ Imported identity for User6@bank
+✅ Imported identity for User7@bank
+✅ Imported identity for User8@bank
+✅ Imported identity for User9@bank
+✅ Imported identity for User10@bank
+✅ Imported identity for User11@bank
+✅ Imported identity for User12@bank
+✅ Imported identity for User13@bank
+✅ Imported identity for User14@bank
+✅ Imported identity for User15@bank
+✅ Imported identity for User16@bank
+✅ Imported identity for User17@bank
+✅ Imported identity for User18@bank
+✅ Imported identity for User19@bank
+✅ Imported identity for User20@bank
+✅ Imported identity for User21@bank
+✅ Imported identity for User22@bank
+✅ Imported identity for User23@bank
+✅ Imported identity for User24@bank
+✅ Imported identity for User25@bank
+✅ Backend identity import completed for requested User1..User25. Imported=130, skipped=0
+✅ Network connection established for User1@bank
+✅ Network connection established for User1@bank
+✅ Network connection established for Admin@farmers
+2026-07-02T14:50:06.265Z - [31merror[39m: [SingleQueryHandler]: evaluate: message=Query failed. Errors: ["Error: Peer peer0.farmers.example.com:7051 is not running chaincode cardamom_9"], stack=FabricError: Query failed. Errors: ["Error: Peer peer0.farmers.example.com:7051 is not running chaincode cardamom_9"]
+    at SingleQueryHandler.evaluate (/home/dhanish/fabric_2/backend/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:70:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Transaction.evaluate (/home/dhanish/fabric_2/backend/node_modules/fabric-network/lib/transaction.js:322:25)
+    at async /home/dhanish/fabric_2/backend/server.js:281:20, name=FabricError
+✅ Network connection established for User1@bank
+✅ Network connection established for User1@bank
+✅ Network connection established for User1@farmers
+2026-07-02T14:50:10.745Z - [31merror[39m: [SingleQueryHandler]: evaluate: message=Query failed. Errors: ["Error: Peer peer0.farmers.example.com:7051 is not running chaincode cardamom_9"], stack=FabricError: Query failed. Errors: ["Error: Peer peer0.farmers.example.com:7051 is not running chaincode cardamom_9"]
+    at SingleQueryHandler.evaluate (/home/dhanish/fabric_2/backend/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:70:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Transaction.evaluate (/home/dhanish/fabric_2/backend/node_modules/fabric-network/lib/transaction.js:322:25)
+    at async /home/dhanish/fabric_2/backend/server.js:281:20, name=FabricError
+✅ Network connection established for User1@bank
+✅ Network connection established for User1@bank
+✅ Network connection established for User2@farmers
+2026-07-02T14:50:15.121Z - [31merror[39m: [SingleQueryHandler]: evaluate: message=Query failed. Errors: ["Error: Peer peer0.farmers.example.com:7051 is not running chaincode cardamom_9"], stack=FabricError: Query failed. Errors: ["Error: Peer peer0.farmers.example.com:7051 is not running chaincode cardamom_9"]
+    at SingleQueryHandler.evaluate (/home/dhanish/fabric_2/backend/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:70:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Transaction.evaluate (/home/dhanish/fabric_2/backend/node_modules/fabric-network/lib/transaction.js:322:25)
+    at async /home/dhanish/fabric_2/backend/server.js:281:20, name=FabricError
+✅ Network connection established for User1@bank
+✅ Network connection established for User1@bank
+✅ Network connection established for User3@farmers
+2026-07-02T14:50:19.556Z - [31merror[39m: [SingleQueryHandler]: evaluate: message=Query failed. Errors: ["Error: Peer peer0.farmers.example.com:7051 is not running chaincode cardamom_9"], stack=FabricError: Query failed. Errors: ["Error: Peer peer0.farmers.example.com:7051 is not running chaincode cardamom_9"]
+    at SingleQueryHandler.evaluate (/home/dhanish/fabric_2/backend/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:70:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Transaction.evaluate (/home/dhanish/fabric_2/backend/node_modules/fabric-network/lib/transaction.js:322:25)
+    at async /home/dhanish/fabric_2/backend/server.js:281:20, name=FabricError
+✅ Network connection established for User1@bank
+✅ Network connection established for User1@bank
+✅ Network connection established for User4@farmers
+2026-07-02T14:50:23.970Z - [31merror[39m: [SingleQueryHandler]: evaluate: message=Query failed. Errors: ["Error: Peer peer0.farmers.example.com:7051 is not running chaincode cardamom_9"], stack=FabricError: Query failed. Errors: ["Error: Peer peer0.farmers.example.com:7051 is not running chaincode cardamom_9"]
+    at SingleQueryHandler.evaluate (/home/dhanish/fabric_2/backend/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:70:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Transaction.evaluate (/home/dhanish/fabric_2/backend/node_modules/fabric-network/lib/transaction.js:322:25)
+    at async /home/dhanish/fabric_2/backend/server.js:281:20, name=FabricError
+✅ Network connection established for User1@bank
+✅ Network connection established for User1@bank
+✅ Network connection established for User5@farmers
+2026-07-02T14:50:25.371Z - [31merror[39m: [SingleQueryHandler]: evaluate: message=Query failed. Errors: ["Error: Peer peer0.farmers.example.com:7051 is not running chaincode cardamom_9"], stack=FabricError: Query failed. Errors: ["Error: Peer peer0.farmers.example.com:7051 is not running chaincode cardamom_9"]
+    at SingleQueryHandler.evaluate (/home/dhanish/fabric_2/backend/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:70:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Transaction.evaluate (/home/dhanish/fabric_2/backend/node_modules/fabric-network/lib/transaction.js:322:25)
+    at async /home/dhanish/fabric_2/backend/server.js:281:20, name=FabricError
+✅ Network connection established for User1@bank
+✅ Network connection established for User1@bank

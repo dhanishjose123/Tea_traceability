@@ -1,0 +1,9 @@
+functionName,lotWeightKg,load,numCaliperWorkers,hotKeyWrites,hotParticipants,ledgerWrites,reads,payloadBytes,sendRate,success,failures,totalTransactions,throughput,failureRate,latency,avgLatency,function_clean
+acceptoffer_f4_r4,10,1,4,2,8,3,3,34.8,1.4,9,3,12,1.0,0.25,150,4.01,acceptoffer
+acceptoffer_f4_r4,10,4,4,2,8,3,3,34.8,4.1,9,15,24,3.0,0.625,150,3.0,acceptoffer
+acceptoffer_f4_r4,10,10,4,2,8,3,3,34.8,8.9,8,35,43,5.3,0.813953488372093,150,3.02,acceptoffer
+acceptoffer_f4_r4,10,20,4,2,8,3,3,34.8,16.6,8,96,104,10.1,0.9230769230769231,150,3.94,acceptoffer
+acceptoffer_f4_r4,10,50,4,2,8,3,3,34.8,42.1,6,174,180,27.1,0.9666666666666667,150,3.79,acceptoffer
+acceptoffer_f4_r4,10,100,4,2,8,3,3,34.8,86.5,6,294,300,41.2,0.98,150,4.04,acceptoffer
+acceptoffer_f4_r4,10,200,4,2,8,3,3,34.8,166.7,5,999,1004,98.0,0.9950199203187251,150,6.12,acceptoffer
+acceptoffer_f4_r4,10,400,4,2,8,3,3,34.8,289.7,5,1287,1292,153.8,0.9961300309597523,150,3.9,acceptoffer

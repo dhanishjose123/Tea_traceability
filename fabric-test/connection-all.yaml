@@ -1,0 +1,19 @@
+name: CombinedNetwork
+version: 1.0.0
+organizations: {}
+peers: {}
+certificateAuthorities: {}
+channels:
+  defaultchannel:
+    orderers:
+      - orderer.example.com
+    peers: {}
+orderers:
+  orderer.example.com:
+    url: grpcs://localhost:7050
+    tlsCACerts:
+      path: organizations/ordererOrganizations/example.com/tlsca/tlsca.example.com-cert.pem
+    grpcOptions:
+      ssl-target-name-override: orderer.example.com
+      hostnameOverride: orderer.example.com
+

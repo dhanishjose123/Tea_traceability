@@ -1,0 +1,36 @@
+{
+  "data_path": "C:\\Users\\hp\\Desktop\\dhanish\\fabric_2\\results\\Data_set\\throughput_results_all_combined.xlsx",
+  "rows_used": 2442,
+  "latency_filter": "latency <= 100",
+  "features": [
+    "load",
+    "hotParticipants",
+    "latency",
+    "ledgerWrites",
+    "reads",
+    "payloadBytes"
+  ],
+  "targets": [
+    "throughput",
+    "failureRate"
+  ],
+  "test_size": 0.2,
+  "random_state": 42,
+  "n_estimators": 100,
+  "metrics": {
+    "throughput": {
+      "r2": 0.9236191347845508,
+      "mae": 11.933191554687022,
+      "rmse": 25.145477332702296
+    },
+    "failureRate": {
+      "r2": 0.957018402922831,
+      "mae": 0.03676332419028504,
+      "rmse": 0.08076024118144517
+    }
+  },
+  "model_files": {
+    "throughput": "C:\\Users\\hp\\Desktop\\dhanish\\fabric_2\\results\\tea_traceability\\models\\random_forest_throughput_with_latency.joblib",
+    "failureRate": "C:\\Users\\hp\\Desktop\\dhanish\\fabric_2\\results\\tea_traceability\\models\\random_forest_failurerate_with_latency.joblib"
+  }
+}

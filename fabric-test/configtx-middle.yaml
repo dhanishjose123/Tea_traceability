@@ -1,0 +1,18 @@
+  - &${ORG_CAP}
+    Name: ${ORGMSP}
+    ID: ${ORGMSP}
+    MSPDir: ../organizations/peerOrganizations/${ORG}.example.com/msp
+    Policies:
+      Readers:
+        Type: Signature
+        Rule: "OR('${ORGMSP}.admin', '${ORGMSP}.peer', '${ORGMSP}.client')"
+      Writers:
+        Type: Signature
+        Rule: "OR('${ORGMSP}.admin', '${ORGMSP}.client')"
+      Admins:
+        Type: Signature
+        Rule: "OR('${ORGMSP}.admin')"
+      Endorsement:
+        Type: Signature
+        Rule: "OR('${ORGMSP}.peer')"
+    

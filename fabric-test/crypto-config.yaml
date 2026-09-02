@@ -1,0 +1,12 @@
+  # ---------------------------------------------------------------------------
+  # ${ORG} Organization
+  # ---------------------------------------------------------------------------
+  - Name: ${ORG}
+    Domain: ${DOMAIN}
+    EnableNodeOUs: true
+    Template:
+      Count: 1
+      SANS:
+        - localhost
+    Users:
+      Count: 5

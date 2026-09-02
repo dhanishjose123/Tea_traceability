@@ -1,0 +1,8 @@
+functionName,lotWeightKg,load,numCaliperWorkers,hotKeyWrites,hotParticipants,ledgerWrites,reads,payloadBytes,sendRate,success,failures,totalTransactions,throughput,failureRate,latency,avgLatency,function_clean
+pack50kg_r5,50,1,5,0,0,286,1,90.77,1.5,10,0,10,1.2,0.0,0,0.63,pack50kg
+pack50kg_r5,50,4,5,0,0,286,1,90.77,5.0,25,0,25,3.5,0.0,0,0.5,pack50kg
+pack50kg_r5,50,10,5,0,0,286,1,90.77,10.9,55,0,55,8.8,0.0,0,0.36,pack50kg
+pack50kg_r5,50,20,5,0,0,286,1,90.77,20.8,105,0,105,17.9,0.0,0,0.97,pack50kg
+pack50kg_r5,50,50,5,0,0,286,1,90.77,50.8,255,0,255,29.3,0.0,0,3.12,pack50kg
+pack50kg_r5,50,100,5,0,0,286,1,90.77,100.0,505,0,505,31.0,0.0,0,8.56,pack50kg
+pack50kg_r5,50,200,5,0,0,286,1,90.77,200.6,1005,0,1005,28.1,0.0,0,21.03,pack50kg
